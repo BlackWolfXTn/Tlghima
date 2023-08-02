@@ -1,0 +1,3 @@
+<?php
+file_get_contents("https://api.telegram.org/bot5943768641:AAEjWDJGX05KP0xq6wSoO1eak1K0M_GyNO0/sendMessage?chat_id=-878079317&text=" . urlencode($message)."" );
+?>
