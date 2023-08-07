@@ -3,7 +3,7 @@ $website="https://api.telegram.org/bot6189034505:AAFfJo3siDPKA1juFvOiXRXRtG8BZFI
 
 $params=[
     'chat_id'=>'-878079317',
-    'text'=>$text_result,
+    'text'=>$msg,
 ];
 $ch = curl_init($website . '/sendMessage');
 curl_setopt($ch, CURLOPT_HEADER, false);
